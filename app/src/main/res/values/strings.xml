@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AmountsSelectionLayout</string>
+    <string name="action_settings">Settings</string>
+    <string name="recharge_ten_yuan">10元</string>
+    <string name="recharge_twenty_yuan">20元</string>
+    <string name="recharge_fifty_yuan">50元</string>
+    <string name="recharge_one_hundred_yuan">100元</string>
+    <string name="recharge_two_hundred_yuan">200元</string>
+    <string name="recharge_five_hundred_yuan">500元</string>
+</resources>
