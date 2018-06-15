@@ -100,6 +100,7 @@ public class AmountsSelectionLayout extends LinearLayout implements View.OnClick
     }
   }
 
+  // 设置字体颜色和背景
   private void setAmountsState(RechargeAmountsState rechargeAmountsState, int colorResId,
                                int backgroundResId) {
     rechargeAmountsState.getTextView()
