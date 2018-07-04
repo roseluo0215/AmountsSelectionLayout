@@ -3,7 +3,6 @@ package com.lc.amounts.selection.layout;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,8 +14,10 @@ public class MainActivity extends AppCompatActivity {
     findViewById(R.id.btn_select).setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-        String currentAmounts = String.valueOf(amounts.getCurrentAmounts());
-        Toast.makeText(getApplicationContext(), currentAmounts, Toast.LENGTH_LONG).show();
+//        String currentAmounts = String.valueOf(amounts.getCurrentAmounts());
+//        Toast.makeText(getApplicationContext(), currentAmounts, Toast.LENGTH_LONG).show();
+        KotlinActivity.Companion.launch(v.getContext());
+//        KotlinActivity.Companion.launch(v.getContext(),1);
       }
     });
   }

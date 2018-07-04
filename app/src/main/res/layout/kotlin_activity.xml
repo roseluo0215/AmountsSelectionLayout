@@ -7,7 +7,7 @@
 
     <include
         android:id="@+id/include_amounts_layout"
-        layout="@layout/amounts_selection_layout"
+        layout="@layout/kotlin_amounts_selection_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="跳到kotlin界面"/>
+        android:text="选择金额"/>
 
 
 </LinearLayout>
