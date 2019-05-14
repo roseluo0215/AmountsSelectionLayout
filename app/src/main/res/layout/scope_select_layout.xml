@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ebo.smarthome.ui.view.ScopeSelectLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:orientation="horizontal"
+    android:paddingLeft="80dp">
+
+    <TextView
+        android:id="@+id/half"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/scope_selector"
+        android:drawablePadding="24dp"
+        android:text="0.5公里"
+        android:textColor="@drawable/scope_text_selector"
+        android:textSize="38sp"/>
+
+    <TextView
+        android:id="@+id/one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="75dp"
+        android:drawableLeft="@drawable/scope_selector"
+        android:drawablePadding="24dp"
+        android:text="1.0公里"
+        android:textColor="@drawable/scope_text_selector"
+        android:textSize="38sp"/>
+
+    <TextView
+        android:id="@+id/three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="75dp"
+        android:drawableLeft="@drawable/scope_selector"
+        android:drawablePadding="24dp"
+        android:text="3.0公里"
+        android:textColor="@drawable/scope_text_selector"
+        android:textSize="38sp"/>
+
+    <TextView
+        android:id="@+id/five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="75dp"
+        android:drawableLeft="@drawable/scope_selector"
+        android:drawablePadding="24dp"
+        android:text="5.0公里"
+        android:textColor="@drawable/scope_text_selector"
+        android:textSize="38sp"/>
+
+</com.ebo.smarthome.ui.view.ScopeSelectLayout>
