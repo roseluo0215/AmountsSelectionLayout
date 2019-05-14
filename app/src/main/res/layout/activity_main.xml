@@ -21,5 +21,12 @@
         android:layout_marginTop="30dp"
         android:text="跳到kotlin界面"/>
 
+    <include
+        android:id="@+id/layout_scope_select"
+        layout="@layout/scope_select_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
 
 </LinearLayout>
