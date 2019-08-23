@@ -12,7 +12,7 @@ import java.util.List;
 
 public class AmountsSelectionLayout extends LinearLayout implements View.OnClickListener {
 
-  private List<RechargeAmountsState> list = new ArrayList<>(6);
+  private List<RechargeAmountsState> list = new ArrayList<>(8);
   private int mCurrentAmounts = 10;// 默认的选中
 
   public AmountsSelectionLayout(Context context) {
