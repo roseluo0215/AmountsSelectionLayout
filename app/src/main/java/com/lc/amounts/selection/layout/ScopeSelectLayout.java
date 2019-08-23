@@ -32,7 +32,7 @@ public class ScopeSelectLayout extends LinearLayout implements View.OnClickListe
         .inflate(R.layout.scope_select_layout, viewGroup, false);
   }
 
-  private List<TextView> mScopeTextViewList = new ArrayList<>(4);
+  private List<TextView> mScopeTextViewList = new ArrayList<>(8);
   private DistanceClickListener mListener;
 
   @Override
