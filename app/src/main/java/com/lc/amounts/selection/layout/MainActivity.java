@@ -14,10 +14,15 @@ public class MainActivity extends AppCompatActivity {
     findViewById(R.id.btn_select).setOnClickListener(new View.OnClickListener() {
       @Override
       public void onClick(View v) {
-//        String currentAmounts = String.valueOf(amounts.getCurrentAmounts());
-//        Toast.makeText(getApplicationContext(), currentAmounts, Toast.LENGTH_LONG).show();
-        KotlinActivity.Companion.launch(v.getContext());
-//        KotlinActivity.Companion.launch(v.getContext(),1);
+        // String currentAmounts = String.valueOf(amounts.getCurrentAmounts());
+        // Toast.makeText(getApplicationContext(), currentAmounts, Toast.LENGTH_LONG).show();
+         KotlinActivity.Companion.launch(v.getContext());
+        // KotlinActivity.Companion.launch(v.getContext(),1);
+
+//        TipsDialogFragment.Builder builder = new TipsDialogFragment.Builder();
+//        TipsDialogFragment build = builder.setTitleText("标题").setContentText("文本内容").build();
+//        build.show(getSupportFragmentManager());
+
       }
     });
   }

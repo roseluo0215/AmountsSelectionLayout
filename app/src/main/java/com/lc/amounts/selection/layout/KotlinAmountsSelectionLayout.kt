@@ -1,6 +1,7 @@
 package com.lc.amounts.selection.layout
 
 import android.content.Context
+import android.support.v4.content.ContextCompat
 import android.util.AttributeSet
 import android.view.View
 import android.widget.LinearLayout
@@ -86,7 +87,7 @@ class KotlinAmountsSelectionLayout : LinearLayout, View.OnClickListener {
     private fun setAmountsState(rechargeAmountsState: RechargeAmountsState, colorResId: Int,
                                 backgroundResId: Int) {
         rechargeAmountsState.textView!!
-                .setTextColor(context.resources.getColor(colorResId))
+                .setTextColor(ContextCompat.getColor(context,colorResId))
         rechargeAmountsState.textView!!.setBackgroundResource(backgroundResId)
 
     }
