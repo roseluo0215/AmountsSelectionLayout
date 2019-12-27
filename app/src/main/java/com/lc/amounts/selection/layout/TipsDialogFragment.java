@@ -12,7 +12,24 @@ import android.widget.TextView;
 
 /**
  * @author : lc
- *         date : 2019-12-27
+ *         这是一个底部有两个按钮，在中间显示的dialog，可以通过builder中
+ *         的属性进行设置
+ * 
+ *         使用实例：
+ * 
+ *         TipsDialogFragment.Builder builder = new TipsDialogFragment.Builder();
+ *         TipsDialogFragment build = builder.setTitleText("标题").setContentText("文本内容").build();
+ *         build.show(getSupportFragmentManager());
+ *         build.setDialogButtonListener(new TipsDialogFragment.DialogButtonClickListener() {
+ * @Override
+ *           public void leftOnClick(TipsDialogFragment tipsDialogFragment) {
+ *
+ *           }
+ *
+ * @Override
+ *           public void rightOnClick(TipsDialogFragment tipsDialogFragment) {
+ *
+ *           }
  */
 public class TipsDialogFragment extends BaseDialogFragment {
 

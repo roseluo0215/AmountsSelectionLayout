@@ -16,12 +16,23 @@ public class MainActivity extends AppCompatActivity {
       public void onClick(View v) {
         // String currentAmounts = String.valueOf(amounts.getCurrentAmounts());
         // Toast.makeText(getApplicationContext(), currentAmounts, Toast.LENGTH_LONG).show();
-         KotlinActivity.Companion.launch(v.getContext());
-        // KotlinActivity.Companion.launch(v.getContext(),1);
-
+        KotlinActivity.Companion.launch(v.getContext());
+//        KotlinActivity.Companion.launch(v.getContext(), 1);
+//
 //        TipsDialogFragment.Builder builder = new TipsDialogFragment.Builder();
 //        TipsDialogFragment build = builder.setTitleText("标题").setContentText("文本内容").build();
 //        build.show(getSupportFragmentManager());
+//        build.setDialogButtonListener(new TipsDialogFragment.DialogButtonClickListener() {
+//          @Override
+//          public void leftOnClick(TipsDialogFragment tipsDialogFragment) {
+//
+//          }
+//
+//          @Override
+//          public void rightOnClick(TipsDialogFragment tipsDialogFragment) {
+//
+//          }
+//        });
 
       }
     });

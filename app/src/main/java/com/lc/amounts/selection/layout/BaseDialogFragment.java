@@ -16,7 +16,6 @@ import android.view.WindowManager;
 
 /**
  * @author : lc
- *         date : 19/5/14
  *         自定义dialog的基类，想要自定义一个dialog继承该类
  */
 public abstract class BaseDialogFragment extends DialogFragment {
@@ -97,6 +96,7 @@ public abstract class BaseDialogFragment extends DialogFragment {
       return;
     }
     window.setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+    // 设置上下左右的边距，如果都设置0并且height和width都设置MATCH_PARENT，布局会充满整个屏幕
     window.getDecorView().setPadding(30, 30, 30, 30);
     window.setAttributes(getLayoutParams(window.getAttributes()));
   }
@@ -111,7 +111,7 @@ public abstract class BaseDialogFragment extends DialogFragment {
     if (params == null) {
       return new WindowManager.LayoutParams();
     }
-    // 这里可以设置dialog布局的大小
+    // 这里可以设置dialog布局的大小以及显示的位置
     params.width = ViewGroup.LayoutParams.MATCH_PARENT;
     params.height = ViewGroup.LayoutParams.WRAP_CONTENT;
     params.gravity = Gravity.CENTER;

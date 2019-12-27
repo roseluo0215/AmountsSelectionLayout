@@ -9,6 +9,6 @@
     <!-- 里面颜色-->
     <solid android:color="#FFFFFF" />
     
-    <!-- 里面颜色-->
+    <!-- 圆角的弧度-->
     <corners android:radius="20dp" />
 </shape>
